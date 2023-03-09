@@ -122,7 +122,7 @@ contract Dispatcher is IDispatcher {
     constructor() public {
         migrationTimelock = 2 days;
         owner = msg.sender;
-        sharesTokenSymbol = "ENZF";
+        sharesTokenSymbol = "DXFY";
     }
 
     /////////////

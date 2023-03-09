@@ -24,10 +24,7 @@ const primitives = {
   usdt: '0x55d398326f99059ff775485246999027b3197955',
   btcb: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
   yfi: '0x88f1a5ae2a3bf98aeaf342d26b30a79438c9142e',
-  zrx: '0x0ddc5e539af1753693e9463ca619406b1b06d66e',
-} as const;
 
-const new_primitives = {
   // Top 10
   eth: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
   xrp: '0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE',
@@ -49,7 +46,7 @@ const new_primitives = {
   twt: '0x4B0F1812e5Df2A09796481Ff14017e6005508003',
   paxg: '0x7950865a9140cB519342433146Ed5b40c6F210f7',
   linch: '0x111111111117dC0aa78b770fA6A738034120C302',
-};
+} as const;
 
 const weth = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c';
 
@@ -69,10 +66,6 @@ const aggregators = {
   usdt: ['0xD5c40f5144848Bd4EF08a9605d860e727b991513', ChainlinkRateAsset.ETH],
   btcb: ['0x116EeB23384451C78ed366D4f67D5AD44eE771A0', ChainlinkRateAsset.ETH],
   yfi: ['0xF841761481DF19831cCC851A54D8350aE6022583', ChainlinkRateAsset.ETH],
-  zrx: ['0xFc362828930519f236ad0c8f126B7996562a695A', ChainlinkRateAsset.USD],
-} as const;
-
-const new_aggregators = {
   // Top 10
   eth: ['0x9ef1B8c0E4F7dc8bF5719Ea496883DC6401d5b2e', ChainlinkRateAsset.USD],
   xrp: ['0x93A67D414896A280bF8FFB3b389fE3686E014fda', ChainlinkRateAsset.USD],
@@ -95,6 +88,7 @@ const new_aggregators = {
   paxg: ['0x7F8caD4690A38aC28BDA3D132eF83DB1C17557Df', ChainlinkRateAsset.USD],
   linch: ['0x9a177Bb9f5b6083E962f9e62bD21d4b5660Aeb03', ChainlinkRateAsset.USD],
 } as const;
+
 // 0x0000000000000000000000000000000000000000
 const synths = {} as const;
 

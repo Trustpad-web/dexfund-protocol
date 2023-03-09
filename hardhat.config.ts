@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import '@enzymefinance/hardhat/plugin';
+import "@typechain/hardhat";
 
 import { utils } from 'ethers';
 // import { HardhatUserConfig } from 'hardhat/types';
@@ -100,6 +101,9 @@ const config: any = {
   },
   namedAccounts: {
     deployer: 0,
+  },
+  typechain: {
+    target: "ethers-v5",
   },
   networks: {
     hardhat: {

@@ -22,3 +22,4 @@ artifacts/
 deployments/
 coverage/
 node_modules/
+typechain-types/
